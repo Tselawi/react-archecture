@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "style.css";
-import Hello from "./components/hello";
+import Todo from "./components/todolist";
 // import Header from "./components/header";
 
 ReactDOM.render(
-    <Hello />,
+    <Todo />,
     // <Header />,
     document.querySelector("#app"),
 );
